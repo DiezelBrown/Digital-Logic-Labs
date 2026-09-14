@@ -1,20 +1,22 @@
-# Digital Logic Labs
+## Hardware Testing
 
-A collection of hands-on digital logic projects and laboratory work focused on the practical implementation of digital systems.
+The circuit was tested by applying HIGH (5 V) and LOW (GND) logic
+levels to inputs A, B, and C. An LED was used to indicate output M.
 
-## Topics
+### Test 1: A = 0, B = 0, C = 0
 
-- Boolean logic and logic minimization
-- Breadboard prototyping
-- 74LS-series integrated circuits
-- Combinational logic
-- Sequential logic
-- Verilog design and simulation
-- Hardware testing and debugging
+![A=0 B=0 C=0 - LED OFF](output-000-off.jpg)
 
-## Labs
+**Result:** M = 0 (LED OFF)
 
-### Lab 2 - NAND Majority Circuit
-Implemented a three-input majority circuit using SN74LS00N NAND gates on a breadboard and verified its behavior using all possible input combinations.
+### Test 2: A = 1, B = 0, C = 1
 
-More labs will be added throughout the semester.
+![A=1 B=0 C=1 - LED ON](output-101-on.jpg)
+
+**Result:** M = 1 (LED ON)
+
+### Test 3: A = 1, B = 1, C = 1
+
+![A=1 B=1 C=1 - LED ON](output-111-on.jpg)
+
+**Result:** M = 1 (LED ON)
