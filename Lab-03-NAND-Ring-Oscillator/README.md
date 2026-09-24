@@ -28,7 +28,7 @@ The propagation delay through each gate causes the output to alternate between H
 
 The breadboard wiring was modeled in Tinkercad using a 74HC00 NAND-gate IC as a wiring reference before physical implementation.
 
-![Tinkercad Circuit](images/tinkercad-circuit.jpg)
+![Tinkercad Circuit](tinkercad-circuit.jpg)
 
 ### Physical Breadboard Implementation
 
