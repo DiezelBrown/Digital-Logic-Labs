@@ -52,10 +52,6 @@ The oscilloscope was used to observe the output waveform, measure the oscillatio
 |---|---|
 | Oscilloscope measured frequency | 11.120 MHz |
 
-### Oscilloscope Measurement Screenshot
-
-![Oscilloscope Measurements](images/oscilloscope-measurements.jpg)
-
 ## Results and Discussion
 
 The experiment demonstrated the construction of a three-stage NAND-gate ring oscillator and the use of an oscilloscope to observe digital signal behavior.
