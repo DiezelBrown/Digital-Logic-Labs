@@ -34,7 +34,7 @@ The breadboard wiring was modeled in Tinkercad using a 74HC00 NAND-gate IC as a 
 
 The oscillator circuit was constructed on a breadboard using a 74LS00 IC and tested with the Digilent Analog Discovery 2.
 
-![Breadboard Circuit](images/breadboard.jpg)
+![Breadboard Circuit](breadboard.jpg)
 
 ## Oscilloscope Measurements
 
@@ -44,7 +44,8 @@ The oscilloscope was used to observe the output waveform, measure the oscillatio
 
 ### Captured Waveform
 
-![Oscilloscope Waveform](images/oscilloscope-waveform.jpg)
+![Oscilloscope Waveform](oscilloscope-waveform.jpg)
+
 ### Recorded Measurement
 
 | Measurement | Value |
