@@ -13,6 +13,7 @@ This repository documents the design, implementation, simulation, and testing of
 - 74LS-series integrated circuits
 - Verilog design and simulation
 - Hardware testing and debugging
+- Oscilloscope measurements and waveform analysis
 - Finite State Machines (FSMs)
 
 ## Labs
@@ -21,13 +22,24 @@ This repository documents the design, implementation, simulation, and testing of
 
 Implemented a three-input majority function using SN74LS00N NAND gates on a breadboard. The circuit was tested using different input combinations and verified against its expected truth table.
 
-[View Lab 2 Documentation](Lab-02-NAND-Majority-Circuit/README.md)
+[View Lab 2 Documentation](https://github.com/DiezelBrown/Digital-Logic-Labs/blob/main/Lab-02-NAND-Majority-Circuit/README.md)
+
+### Lab 3 - NAND-Gate Ring Oscillator
+
+Designed and constructed a three-stage NAND-gate ring oscillator using a 74LS00 NAND IC. The circuit was implemented on a breadboard and tested using a Digilent Analog Discovery 2 and WaveForms oscilloscope software.
+
+The lab explored propagation delay, feedback, oscillation, and waveform analysis in physical digital logic hardware.
+
+[View Lab 3 Documentation](https://github.com/DiezelBrown/Digital-Logic-Labs/blob/main/Lab-03-NAND-Ring-Oscillator/README.md)
 
 ## Tools & Hardware
 
 - Breadboards
 - 74LS-series logic ICs
 - Digital logic trainer
+- Digilent Analog Discovery 2
+- WaveForms
+- Tinkercad Circuits
 - Verilog
 - Icarus Verilog
 - GTKWave / Surfer
