@@ -32,20 +32,33 @@ The lab explored propagation delay, feedback, oscillation, and waveform analysis
 
 [View Lab 3 Documentation](https://github.com/DiezelBrown/Digital-Logic-Labs/blob/main/Lab-03-NAND-Ring-Oscillator/README.md)
 
+### Lab 4 - Full Adder and Verilog HDL
+
+Designed, constructed, and verified a 1-bit full adder using XOR and NAND logic.
+
+The full adder was first analyzed using a truth table and Karnaugh maps, then implemented on a breadboard and tested using LEDs to verify the `Sum` and `Cout` outputs.
+
+The same optimized circuit was implemented using structural Verilog and verified with a testbench covering all eight possible input combinations. Simulation results were analyzed using the Surfer waveform viewer.
+
+[View Lab 4 Documentation](https://github.com/DiezelBrown/Digital-Logic-Labs/blob/main/Lab-04-Full-Adder-Verilog/README.md)
+
 ## Tools & Hardware
 
 - Breadboards
 - 74LS-series logic ICs
+- XOR and NAND logic gates
+- LEDs and current-limiting resistors
 - Digital logic trainer
 - Digilent Analog Discovery 2
 - WaveForms
 - Tinkercad Circuits
-- Verilog
+- Verilog HDL
 - Icarus Verilog
 - GTKWave / Surfer
+- VS Code
 
 ## Repository Goals
 
 This repository documents my progression from Boolean logic and basic gate-level circuits to more advanced combinational and sequential digital systems.
 
-Each lab includes design information, implementation details, testing, and results when applicable.
+Each lab includes design information, implementation details, testing, simulation, and results when applicable.
