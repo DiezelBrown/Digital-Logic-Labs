@@ -42,6 +42,16 @@ The same optimized circuit was implemented using structural Verilog and verified
 
 [View Lab 4 Documentation](https://github.com/DiezelBrown/Digital-Logic-Labs/blob/main/Lab-04-Full-Adder-Verilog/README.md)
 
+### Lab 5 - 4-to-1 Multiplexer and Hierarchical Verilog
+
+Designed and constructed a 4-to-1 multiplexer using 74LS-series logic ICs and compared its output against a 74LS153N integrated multiplexer.
+
+The gate-level circuit used inverter, 3-input AND, and OR gates to implement the multiplexer logic. A comparator circuit using XOR and inverter logic drove an LED to indicate when the manually constructed mux and the 74LS153N produced matching outputs.
+
+The same design was implemented in Verilog using hierarchical construction by combining three 2-to-1 mux modules to create a 4-to-1 mux. A testbench verified all 64 possible data and select combinations with no errors.
+
+[View Lab 5 Documentation](https://github.com/DiezelBrown/Digital-Logic-Labs/blob/main/Lab-05-Mux-Verilog/README.md)
+
 ## Tools & Hardware
 
 - Breadboards
