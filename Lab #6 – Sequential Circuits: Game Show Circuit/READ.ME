@@ -1,1 +1,49 @@
+# Lab 6 — Game Show Circuit
+
+
+## Overview
+Built a sequential game show circuit using D flip-flops and logic gates. The design records a contestant's input and holds the result until reset.
+
+I continued working on the circuit at home after the lab session, using an Arduino Uno to generate the clock signal normally supplied by a function generator. The Arduino supplied the clock; the breadboard logic handled the game show circuit.
+
+## Designed Behavior
+- Both LEDs are off in the wait state.
+- Contestant 0's input turns on LED0.
+- Contestant 1's input turns on LED1.
+- Both inputs sampled high in the wait state produce a tie.
+- The selected result remains stored until reset.
+
+Inputs are sampled on the rising clock edge.
+
+## State Table
+
+| State | Q1Q0 | Meaning |
+| --- | --- | --- |
+| A | 00 | Waiting |
+| B | 01 | Contestant 0 wins |
+| C | 10 | Contestant 1 wins |
+| D | 11 | Tie |
+
+## Logic Equations
+D0 = Q0 + X0·Q1'
+D1 = Q1 + X1·Q0'
+Y0 = Q0
+Y1 = Q1
+
+Here, + means OR, · means AND, and ' means NOT.
+
+## Arduino Clock
+The clock program toggles digital pin 7 HIGH for 500 ms and LOW for 500 ms, producing a nominal 1 Hz clock.
+
+## Hardware Progress
+The photos document the breadboard setup and different LED combinations. Full winner-lockout and reset verification are not documented here.
+
+## Photos
+![Breadboard setup](game_show_breadboard.jpeg)
+![Left LED illuminated](game_show_left_led.jpeg)
+![Right LED illuminated](game_show_right_led.jpeg)
+![Both LEDs illuminated](game_show_both_leds.jpeg)
+
+## Skills Practiced
+Sequential logic, state machines, D flip-flops, feedback, reset behavior, and Arduino clock generation.
 
